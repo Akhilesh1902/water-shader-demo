@@ -1,5 +1,5 @@
 import { Box, Plane } from "@react-three/drei";
-import { useFrame, useLoader, useThree } from "@react-three/fiber";
+import { useFrame } from "@react-three/fiber";
 import { useRef } from "react";
 import * as THREE from "three";
 import { frag } from "../shaders/frag";
